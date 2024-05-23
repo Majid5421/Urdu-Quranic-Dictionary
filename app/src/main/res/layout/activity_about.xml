@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About My App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp">
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Our App:
+
+Welcome to our language learning application! Our app is designed to help users expand their vocabulary in multiple languages effortlessly. Whether you're looking to enhance your understanding of  Arabic, Urdu, English, or all three, our comprehensive tool provides you with an extensive database of words and their meanings.
+
+Key Features:
+
+Intuitive Search: Easily search for words in Arabic, Urdu, or English using our user-friendly search feature. With real-time filtering, finding the words you need is quick and convenient.
+
+Interactive Spinner: Explore words alphabetically with our interactive spinner. Select a letter to filter words by starting with the chosen letter, allowing for a structured learning experience.
+
+Clipboard Integration: Copy words and their meanings to your device's clipboard with a simple long-press gesture. This feature makes it easy to save and utilize new vocabulary in your studies or everyday conversations.
+
+Navigation Drawer: Seamlessly navigate between different sections of the app using the integrated navigation drawer. Access additional functionalities such as accessing the spinner, learning about the app, and gracefully exiting the application.
+
+Multi-Language Support: Learn words in Arabic, Urdu, and English simultaneously. Our app supports multiple languages, enabling users to broaden their language skills effortlessly.
+
+How to Use:Start by exploring words using the interactive spinner or the search feature.
+Long-press on any word to copy it to your device's clipboard for easy reference.
+Utilize the navigation drawer to access different sections of the app and learn more about its features.
+Download our app today and embark on a journey to expand your language proficiency like never before!"
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+    </ScrollView>
+
+</RelativeLayout>

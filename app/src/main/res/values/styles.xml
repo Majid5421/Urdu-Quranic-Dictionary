@@ -1,0 +1,9 @@
+<!-- styles.xml -->
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MyApplication">
+        <!-- Customize your theme here -->
+        <item name="android:statusBarColor">@color/green</item>
+        <item name="android:navigationBarColor">@color/green</item>
+    </style>
+</resources>

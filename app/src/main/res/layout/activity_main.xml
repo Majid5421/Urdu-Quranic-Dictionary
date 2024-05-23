@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@drawable/dictionary_2"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="281dp"
+        android:layout_height="86dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="click on image button and go to next activity"
+        android:src="@drawable/button_1" />
+
+    <!-- Spinner ImageButton -->
+    <ImageButton
+        android:id="@+id/spinnerImageButton"
+        android:layout_width="323dp"
+        android:layout_height="98dp"
+        android:layout_below="@id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="Spinner Image Button"
+        android:src="@drawable/spinner" />
+
+</RelativeLayout>
